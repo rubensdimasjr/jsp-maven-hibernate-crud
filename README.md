@@ -38,10 +38,10 @@ Needs to be installed in your PC: [Git](https://git-scm.com), [Node.js](https://
 # Clone repository or Download ZIP 
 $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 ```
-##### Opening SQL script (MySQL Workbench)
+#### Opening SQL script (MySQL Workbench)
 1. **File > Run SQL script** > script.sql
 
-##### Importing repository (Eclipse)
+#### Importing repository (Eclipse)
 
 2. Open Eclipse IDE -> **File > Import** 
 
@@ -61,14 +61,31 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 5. **Finish**.
 
 ![Finish](https://i.imgur.com/kLJ7Mai.png)
-##### Modifying Dao interface class and others
+#### Modifying Dao interface class and others
 - Open src/main/java **> package dao > Provedor.java**
 ```bash
 # Change for your connection credential
-$ String username = "root";
-$ String pwd = " ";
+ String username = "root";
+ String pwd = " ";
+```
+- Open src/main/java **> hibernate.cfg.xml**
+```bash
+# Change property hibernate connection
+  <property name="hibernate.connection.username">root</property>  
+  <property name="hibernate.connection.password"> </property>  
 ```
 ### Note (important!)
 - MySQL Workbench connection must not be closed while the application server(Apache TomCat or other) is running.
-- MySQL Workbench(or other) version must be the same as the JDBC Driver(located **webapp > WEB-INF > lib** / **Maven dependencies** / **hibernate.cfg.xml**).
+- MySQL Workbench(or other) version must be the same as the JDBC Driver(located **pom.xml**, **Maven dependencies** and **hibernate.cfg.xml**).
+<hr>
 
+### Autor
+
+<a href="https://github.com/rubensdimasjr">
+<img style="border-radius: 50%;" src="https://i.imgur.com/ZC8xQWi.jpg" width="100px;" alt="Rubens"/>
+</a>
+
+Feito com  por <a href="https://github.com/rubensdimasjr"><b>Rubens Matias</b></a> 🚀 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rubens-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rubensdimasjr/)](https://www.linkedin.com/in/rubensdimasjr/) 
+[![Gmail Badge](https://img.shields.io/badge/-contato.rubensdimas@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato.rubensdimas@gmail.com)](mailto:contato.rubensdimas@gmail.com)
