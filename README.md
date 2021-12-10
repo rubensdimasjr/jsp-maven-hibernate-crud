@@ -30,7 +30,7 @@ and more...
 
 ### 🌍 Preparing Environment 
 
-Needs to be installed in your PC: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Java JDK 11+](https://openjdk.java.net/). IDE to work with the code like [Eclipse](https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-enterprise-java-and-web-developers), [IntelliJ](https://www.jetbrains.com/pt-br/idea/), both with application server installed, [Apache Tomcat 9](https://tomcat.apache.org/download-90.cgi) or other. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) or similar to manage database (**important!** case switch the tool to manage, it's necessary change the connector of database).
+Needs to be installed in your PC: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Java JDK 11+](https://openjdk.java.net/). IDE to work with the code like [Eclipse](https://www.eclipse.org/downloads/packages/release/2021-12/r/eclipse-ide-enterprise-java-and-web-developers), [IntelliJ](https://www.jetbrains.com/pt-br/idea/), both with application server installed, [Apache Tomcat 9](https://tomcat.apache.org/download-90.cgi) or other. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) or similar to manage database (**important!** case switch the tool to manage, it's necessary change the JDBC Driver).
 
 #### Getting Started
 
