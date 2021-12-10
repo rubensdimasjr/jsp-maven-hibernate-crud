@@ -83,7 +83,7 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 ### 🇦🇱 Autor
 
 <a href="https://github.com/rubensdimasjr">
-<img style="border-radius: 50%;" src="https://i.imgur.com/ZC8xQWi.jpg" width="100px;" alt="Rubens"/>
+<img src="https://i.imgur.com/ZC8xQWi.jpg" width="100" alt="Rubens" style="border-radius:50%">
 </a>
 
 Feito por <a href="https://github.com/rubensdimasjr"><b>Rubens Matias</b></a> 🚀 Entre em contato!
