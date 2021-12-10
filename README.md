@@ -43,23 +43,26 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 
 ##### Importing repository (Eclipse)
 
-1. Open Eclipse IDE -> **File > Import** 
+2. Open Eclipse IDE -> **File > Import** 
 
    ![Import](https://i.imgur.com/0DOuv9J.png)
 
 
-2. Seach for Maven -> **Select** "Existing Maven Projects" -> **Next > Root Directory, Browse...**
+3. Seach for Maven -> **Select** "Existing Maven Projects" -> **Next > Root Directory, Browse...**
 
 ![Maven Project](https://i.imgur.com/f1MDHMP.png)
 
 
-3. Select repository until find > **pom.xml > Open Folder**
+4. Select repository until find > **pom.xml > Open Folder**
 
 ![Pom XML](https://i.imgur.com/pAeuzCK.png)
 
 
-4. Finish.
+5. **Finish**.
 
 ![Finish](https://i.imgur.com/kLJ7Mai.png)
 
+### Note (important!)
+- MySQL Workbench connection must not be closed while the application server(Apache TomCat or other) is running.
+- MySQL Workbench(or other) version must be the same as the JDBC Driver(located **webapp > WEB-INF > lib** / **Maven dependencies** / **hibernate.cfg.xml**).
 
