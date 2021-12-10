@@ -38,6 +38,9 @@ Needs to be installed in your PC: [Git](https://git-scm.com), [Node.js](https://
 # Clone repository or Download ZIP 
 $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 ```
+##### Opening SQL script (MySQL Workbench)
+1. **File > Run SQL script** > script.sql
+
 ##### Importing repository (Eclipse)
 
 1. Open Eclipse IDE -> **File > Import** 
