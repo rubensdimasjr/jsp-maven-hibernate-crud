@@ -74,18 +74,19 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
   <property name="hibernate.connection.username">root</property>  
   <property name="hibernate.connection.password"> </property>  
 ```
-### Note (important!)
+### 🗒 Note (important!)
 - MySQL Workbench connection must not be closed while the application server(Apache TomCat or other) is running.
 - MySQL Workbench(or other) version must be the same as the JDBC Driver(located **pom.xml**, **Maven dependencies** and **hibernate.cfg.xml**).
+- Links that can help: https://github.com/mysql/mysql-connector-j
 <hr>
 
-### Autor
+### 🇦🇱 Autor
 
 <a href="https://github.com/rubensdimasjr">
 <img style="border-radius: 50%;" src="https://i.imgur.com/ZC8xQWi.jpg" width="100px;" alt="Rubens"/>
 </a>
 
-Feito com  por <a href="https://github.com/rubensdimasjr"><b>Rubens Matias</b></a> 🚀 Entre em contato!
+Feito por <a href="https://github.com/rubensdimasjr"><b>Rubens Matias</b></a> 🚀 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Rubens-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rubensdimasjr/)](https://www.linkedin.com/in/rubensdimasjr/) 
 [![Gmail Badge](https://img.shields.io/badge/-contato.rubensdimas@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:contato.rubensdimas@gmail.com)](mailto:contato.rubensdimas@gmail.com)
