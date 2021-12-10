@@ -61,7 +61,13 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 5. **Finish**.
 
 ![Finish](https://i.imgur.com/kLJ7Mai.png)
-
+##### Modifying Dao interface class and others
+- Open src/main/java **> package dao > Provedor.java**
+```bash
+# Change for your connection credential
+$ String username = "root";
+$ String pwd = " ";
+```
 ### Note (important!)
 - MySQL Workbench connection must not be closed while the application server(Apache TomCat or other) is running.
 - MySQL Workbench(or other) version must be the same as the JDBC Driver(located **webapp > WEB-INF > lib** / **Maven dependencies** / **hibernate.cfg.xml**).
