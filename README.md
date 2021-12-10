@@ -42,19 +42,21 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 
 1. Open Eclipse IDE -> **File > Import** 
 
-   ![](/home/rubensjr/Imagens/2021-12-09_22-03.png)
+   ![Import](https://i.imgur.com/0DOuv9J.png)
 
-   
 
 2. Seach for Maven -> **Select** "Existing Maven Projects" -> **Next > Root Directory, Browse...**
 
-![](/home/rubensjr/Imagens/Captura de tela de 2021-12-09 15-51-56.png)
+![Maven Project](https://i.imgur.com/f1MDHMP.png)
+
 
 3. Select repository until find > **pom.xml > Open Folder**
 
-![ ](/home/rubensjr/Imagens/Captura de tela de 2021-12-09 22-09-27.png)
+![Pom XML](https://i.imgur.com/pAeuzCK.png)
+
 
 4. Finish.
 
-![](/home/rubensjr/Imagens/Captura de tela de 2021-12-09 22-13-50.png)
+![Finish](https://i.imgur.com/kLJ7Mai.png)
+
 
