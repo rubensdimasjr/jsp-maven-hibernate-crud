@@ -77,7 +77,9 @@ $ git clone <https://github.com/rubensdimasjr/jsp-maven-hibernate-crud>
 ### 🗒 Note (important!)
 - MySQL Workbench connection must not be closed while the application server(Apache TomCat or other) is running.
 - MySQL Workbench(or other) version must be the same as the JDBC Driver(located **pom.xml**, **Maven dependencies** and **hibernate.cfg.xml**).
-- Links that can help: https://github.com/mysql/mysql-connector-j
+- Links that can help: 
+   https://github.com/mysql/mysql-connector-j
+   https://github.com/apache/tomcat
 <hr>
 
 ### 🇦🇱 Autor
